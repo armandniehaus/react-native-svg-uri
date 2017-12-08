@@ -256,7 +256,7 @@ class SvgUri extends Component{
         for (let i = 0; i < node.childNodes.length; i++){
           const isTextValue = node.childNodes[i].nodeValue
           if (isTextValue) {
-            arrayElements.push(node.childNodes[i].nodeValue)
+            // arrayElements.push(node.childNodes[i].nodeValue)
           } else {
             const nodo = this.inspectNode(node.childNodes[i]);
             if (nodo != null) {
